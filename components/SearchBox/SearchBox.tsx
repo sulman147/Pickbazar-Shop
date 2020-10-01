@@ -1,11 +1,11 @@
-import InputSearch from './Input';
-import React, { useEffect, useRef, useState } from 'react';
-import SearchResults from './SearchResults';
+import InputSearch from "./Input";
+import React, { useEffect, useRef, useState } from "react";
+import SearchResults from "./SearchResults";
 import SearchWrapper, {
   SearchBoxWrapper,
   CurrentType,
-} from './SearchBox.style';
-import { SearchIcon } from '../AllSvgIcon';
+} from "./SearchBox.style";
+import { SearchIcon } from "../AllSvgIcon";
 
 type SearchBoxProps = {
   suggestions?: string[];
@@ -53,9 +53,9 @@ const Search: React.FC<SearchBoxProps> = ({
   let searchRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
-    document.addEventListener('click', handleClickOutside, false);
+    document.addEventListener("click", handleClickOutside, false);
     return () => {
-      document.removeEventListener('click', handleClickOutside, false);
+      document.removeEventListener("click", handleClickOutside, false);
     };
   }, []);
 
@@ -66,9 +66,9 @@ const Search: React.FC<SearchBoxProps> = ({
   };
 
   const ucwords = (str: string) => {
-    const newString = str.replace(/\//g, '');
-    const humanString = newString.replace(/-/g, ' ');
-    return (humanString + '').replace(/^([a-z])|\s+([a-z])/g, function($1) {
+    const newString = str.replace(/\//g, "");
+    const humanString = newString.replace(/-/g, " ");
+    return (humanString + "").replace(/^([a-z])|\s+([a-z])/g, function($1) {
       return $1.toUpperCase();
     });
   };
@@ -86,7 +86,7 @@ const Search: React.FC<SearchBoxProps> = ({
   };
 
   const onClearBtnClick = () => {
-    setSearchValue('');
+    setSearchValue(undefined);
   };
 
   return (
@@ -99,18 +99,18 @@ const Search: React.FC<SearchBoxProps> = ({
       expand={expand}
     >
       <SearchBoxWrapper
-        className={`${hideType ? 'hideType' : ''} ${
-          expand === true ? (toggleSearch ? 'expanded' : 'collapsed') : ''
-        } ${minimal === true ? 'minimal' : ''}`}
+        className={`${hideType ? "hideType" : ""} ${
+          expand === true ? (toggleSearch ? "expanded" : "collapsed") : ""
+        } ${minimal === true ? "minimal" : ""}`}
       >
-        {pathname && pathname !== '/' ? (
+        {pathname && pathname !== "/" ? (
           <CurrentType>{ucwords(pathname)}</CurrentType>
         ) : (
           <CurrentType>Grocery</CurrentType>
         )}
 
         <InputSearch
-          type='text'
+          type="text"
           value={value}
           onChange={handleSearchInput}
           onFocus={() => setToggleSearch(true)}
@@ -138,11 +138,11 @@ const Search: React.FC<SearchBoxProps> = ({
 Search.defaultProps = {
   bordered: false,
   autoSuggestion: false,
-  buttonText: 'Search',
+  buttonText: "Search",
   buttonIcon: <SearchIcon />,
-  placeholder: 'Search your products from here',
+  placeholder: "Search your products from here",
   inputStyle: {
-    width: '100%',
+    width: "100%",
   },
 };
 
