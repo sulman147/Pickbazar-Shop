@@ -1,0 +1,93 @@
+{
+  "modules": {
+    "byIdentifier": {
+      "multi private-next-pages/_app.tsx": 0,
+      "multi private-next-pages/_document.tsx": 1,
+      "multi private-next-pages/bags.tsx": 2,
+      "multi private-next-pages/book.tsx": 3,
+      "multi private-next-pages/checkout.tsx": 4,
+      "multi private-next-pages/clothing.tsx": 5,
+      "multi private-next-pages/furniture.tsx": 6,
+      "multi private-next-pages/grocery.tsx": 7,
+      "multi private-next-pages/help.tsx": 8,
+      "multi private-next-pages/index.tsx": 9,
+      "multi private-next-pages/makeup.tsx": 10,
+      "multi private-next-pages/offer.tsx": 11,
+      "multi private-next-pages/order-recived.tsx": 12,
+      "multi private-next-pages/order.tsx": 13,
+      "multi private-next-pages/product/[slug].tsx": 14,
+      "multi private-next-pages/profile.tsx": 15,
+      "multi next/dist/pages/_error": 16
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "16": 16
+    }
+  },
+  "chunks": {
+    "byName": {
+      "init-server.js": 1,
+      "on-error-server.js": 2,
+      "static\\_vGUThMh3HiAnBlccXUd6\\pages\\_app.js": 3,
+      "static\\_vGUThMh3HiAnBlccXUd6\\pages\\_document.js": 4,
+      "static\\_vGUThMh3HiAnBlccXUd6\\pages\\_error.js": 5,
+      "static\\_vGUThMh3HiAnBlccXUd6\\pages\\bags.js": 6,
+      "static\\_vGUThMh3HiAnBlccXUd6\\pages\\book.js": 7,
+      "static\\_vGUThMh3HiAnBlccXUd6\\pages\\checkout.js": 8,
+      "static\\_vGUThMh3HiAnBlccXUd6\\pages\\clothing.js": 9,
+      "static\\_vGUThMh3HiAnBlccXUd6\\pages\\furniture.js": 10,
+      "static\\_vGUThMh3HiAnBlccXUd6\\pages\\grocery.js": 11,
+      "static\\_vGUThMh3HiAnBlccXUd6\\pages\\help.js": 12,
+      "static\\_vGUThMh3HiAnBlccXUd6\\pages\\index.js": 13,
+      "static\\_vGUThMh3HiAnBlccXUd6\\pages\\makeup.js": 14,
+      "static\\_vGUThMh3HiAnBlccXUd6\\pages\\offer.js": 15,
+      "static\\_vGUThMh3HiAnBlccXUd6\\pages\\order-recived.js": 16,
+      "static\\_vGUThMh3HiAnBlccXUd6\\pages\\order.js": 17,
+      "static\\_vGUThMh3HiAnBlccXUd6\\pages\\product\\[slug].js": 18,
+      "static\\_vGUThMh3HiAnBlccXUd6\\pages\\profile.js": 19
+    },
+    "bySource": {
+      "0 ../../../../React Web Work\\pickbazar\\node_modules\\next\\dist\\build\\webpack\\loaders\\next-babel-loader.js??ref--4!../../../../React Web Work\\pickbazar\\packages\\shop\\containers\\Products\\Products.tsx ../QuickView/QuickView": 0,
+      "0 ../../../../React Web Work\\pickbazar\\node_modules\\next\\dist\\build\\webpack\\loaders\\next-babel-loader.js??ref--4!../../../../React Web Work\\pickbazar\\packages\\shop\\containers\\Products\\ProductsFurniture.tsx ../QuickView/QuickView": 0,
+      "0 ../../../../React Web Work\\pickbazar\\node_modules\\next\\dist\\build\\webpack\\loaders\\next-babel-loader.js??ref--4!../../../../React Web Work\\pickbazar\\packages\\shop\\containers\\LayoutContainer\\AppLayout.tsx ./Header/MobileHeader": 20
+    },
+    "usedIds": [
+      0,
+      1,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      2,
+      20,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+}

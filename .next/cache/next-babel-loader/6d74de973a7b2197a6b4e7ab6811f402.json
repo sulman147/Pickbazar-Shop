@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { variant } from 'styled-system';\nconst buttonStyle = variant({\n  key: 'buttonStyles'\n});\nconst colorStyle = variant({\n  key: 'colorStyles',\n  prop: 'colors'\n});\nconst buttonSize = variant({\n  key: 'buttonSize',\n  prop: 'size'\n});\nexport { buttonStyle, colorStyle, buttonSize };","map":null,"metadata":{},"sourceType":"module"}
